@@ -24,6 +24,4 @@ if __name__ == '__main__':
     path_to_file = ''
     token = ''
     uploader = YaUploader(token)
-    print(f"Загружаем файл {path_to_file.split('/', )[-1]} на Яндекс.Диск")
     result = uploader.upload(path_to_file)
-    print(result)
